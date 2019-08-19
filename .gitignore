@@ -2,3 +2,5 @@ data/
 model/
 samples/
 venv/
+env
+models/

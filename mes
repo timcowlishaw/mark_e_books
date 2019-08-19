@@ -1,0 +1,4 @@
+#!/bin/bash
+export PYTHONPATH=gpt-2/src/
+source ./env
+python mes.py

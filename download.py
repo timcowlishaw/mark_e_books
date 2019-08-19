@@ -15,13 +15,7 @@ for n in range(1, 9):
                lines.append(p.text)
            seen.add(link["href"])
            print(link["href"])
-           
-           
-               
-           
-       
-        
+
 with open("data/lines.txt", "w") as file:
     for line in lines:
         file.write(line + "\n")
-        
