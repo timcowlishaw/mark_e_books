@@ -1,4 +1,8 @@
 #!/bin/bash
 export PYTHONPATH=gpt-2/src/
 source ./env
-python mes.py
+if hash python3 2>/dev/null; then
+	python3 mes.py
+else
+	python mes.py
+fi
